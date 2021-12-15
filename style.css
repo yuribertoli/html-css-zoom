@@ -5,13 +5,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
 /* Fine regole generali */
 
 /* Inizio regole header */
-header {
-
-}
-
 .speaker-view {
     display: flex;
     justify-content: flex-end;
@@ -40,9 +39,38 @@ header {
 }
 /* Fine regole header */
 
-
-
 /* Inizio regole main */
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zoom-person {
+    position: relative;
+    object-fit: contain;
+    width: 250px;
+    height: 150px;
+}
+
+.name-person {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: grey;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+ 
+.name-person span {
+    margin-left: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
+
 /* Fine regole main */
 
 
