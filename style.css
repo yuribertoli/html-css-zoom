@@ -8,6 +8,36 @@
 /* Fine regole generali */
 
 /* Inizio regole header */
+header {
+
+}
+
+.speaker-view {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.speaker-view i {
+    padding: 7px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
+    font-size: 12px;
+}
+
+.speaker-view span {
+    margin-left: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
 /* Fine regole header */
 
 
