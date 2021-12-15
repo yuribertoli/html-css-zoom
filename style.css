@@ -151,6 +151,10 @@ footer nav ul .chevron.chevron-first {
     margin-right: 5px;
 }
 
+.fa-user-plus {
+    margin-left: 5px;
+}
+
 li .fa-chevron-up {
     font-size: 10px;
 }
