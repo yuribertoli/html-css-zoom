@@ -107,7 +107,6 @@ footer li {
 
 footer li div {
     justify-content: center;
-    text-align: center;
     display: flex;
     white-space: nowrap;
 }
@@ -131,6 +130,7 @@ footer li div {
 .right-footer span {
     color: red;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 footer nav ul .chevron {
