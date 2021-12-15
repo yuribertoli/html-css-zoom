@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    font-family: Helvetica, sans-serif;
 }
 
 body {
@@ -39,7 +40,6 @@ li {
 
 .speaker-view span {
     margin-left: 5px;
-    font-family: Helvetica, sans-serif;
     font-weight: 200;
 }
 /* Fine regole header */
@@ -73,7 +73,6 @@ li {
  
 .name-person span {
     margin-left: 5px;
-    font-family: Helvetica, sans-serif;
     font-weight: 200;
 }
 
@@ -107,4 +106,25 @@ footer li div {
     justify-content: center;
     display: flex;
 }
+
+.icon-footer {
+    margin-bottom: 5px;
+}
+
+.title-footer, .right-footer {
+    font-size: 12px;
+}
+
+.right-footer {
+    background-color: grey;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-footer span {
+    color: red;
+}
+
 /* Fine regole footer */
