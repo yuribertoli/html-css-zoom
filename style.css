@@ -21,6 +21,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 .speaker-view i {
@@ -46,6 +47,7 @@ body {
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .zoom-person {
@@ -53,6 +55,7 @@ body {
     object-fit: contain;
     width: 250px;
     height: 150px;
+    margin: 0 10px 20px;
 }
 
 .name-person {
