@@ -48,7 +48,8 @@ li {
 .container {
     width: 90%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -94,6 +95,7 @@ footer nav {
 
 footer nav div ul {
     display: flex;
+    align-items: center;
 }
 
 footer li {
@@ -116,7 +118,7 @@ footer li div {
 }
 
 .right-footer {
-    background-color: grey;
+    background-color: rgb(92, 91, 91);
     height: 100%;
     display: flex;
     align-items: center;
@@ -125,6 +127,27 @@ footer li div {
 
 .right-footer span {
     color: red;
+    font-weight: 700;
 }
 
+footer nav ul .chevron {
+    min-width: 5px;
+}
+
+footer nav ul .chevron.chevron-center {
+    margin-left: 10px;
+}
+
+footer nav ul .chevron.chevron-first {
+    margin-left: -10px;
+    margin-right: 5px;
+}
+
+li .fa-chevron-up {
+    font-size: 10px;
+}
+
+.fa-share-square {
+    color: rgb(2, 168, 2);
+}
 /* Fine regole footer */
