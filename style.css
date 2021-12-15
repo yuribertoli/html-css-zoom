@@ -102,12 +102,14 @@ footer nav div ul {
 footer li {
     display: flex;
     flex-direction: column;
-    min-width: 70px; 
+    min-width: 70px;
 }
 
 footer li div {
     justify-content: center;
+    text-align: center;
     display: flex;
+    white-space: nowrap;
 }
 
 .icon-footer {
