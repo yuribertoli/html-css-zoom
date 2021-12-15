@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
@@ -27,7 +28,6 @@ body {
 .speaker-view i {
     padding: 7px;
     background-color: grey;
-    color: white;
     border-radius: 5px;
     margin: 10px 10px 0 0;
     font-size: 12px;
@@ -64,7 +64,6 @@ body {
     left: 0;
     background-color: grey;
     padding: 5px;
-    color: white;
     font-size: 12px;
 }
  
@@ -76,7 +75,14 @@ body {
 
 /* Fine regole main */
 
-
-
 /* Inizio regole footer */
+footer nav {
+    display: flex;
+}
+
+footer nav div ul {
+    display: flex;
+}
+
+
 /* Fine regole footer */
